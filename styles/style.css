@@ -1,0 +1,71 @@
+html {
+    font-size: 16px;
+
+}
+
+body{
+    background-color: #211717;
+    color: #DFDDC7;
+}
+
+a {
+    text-decoration: none;
+    color: #A34A28;
+    font-size: 2rem;
+    
+}
+
+a:hover {
+    color: #F58B54;
+    text-decoration: none;
+    text-shadow: #ffffff 5px 0 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 2px solid #DFDDC7;
+}
+
+nav {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive, sans-serif;
+    
+}
+
+nav a {
+    width: 200px;
+}
+
+header img {
+    height: 100px;
+    width: auto;
+    margin: 10px;
+}
+
+.banner {
+    opacity: 0.8;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+#bannerText {
+    background-image: url("../resources/images/texas-ribs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+    z-index: 10;
+    color:#DFDDC7;
+    font-family: 'Permanent Marker', cursive, sans-serif;
+    font-size: 2rem;
+    backdrop-filter: blur(80px);
+    width: 100%;
+}
+
+  
