@@ -8,14 +8,9 @@ body{
     color: #DFDDC7;
 }
 
-a {
-    text-decoration: none;
-    color: #A34A28;
-    font-size: 2rem;
-    
-}
 
-a:hover {
+
+nav a:hover {
     color: #F58B54;
     text-decoration: none;
     text-shadow: #ffffff 5px 0 50px;
@@ -39,6 +34,9 @@ nav {
 
 nav a {
     width: 200px;
+    text-decoration: none;
+    color: #A34A28;
+    font-size: 2rem;
 }
 
 header img {
@@ -49,23 +47,41 @@ header img {
 
 .banner {
     opacity: 0.8;
-    
+    background-image: url("../resources/images/texas-ribs.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-between;
 }
 
 #bannerText {
-    background-image: url("../resources/images/texas-ribs.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    backdrop-filter: blur(8px);
     min-height: 500px;
     width: 100%;
     z-index: 10;
     color:#DFDDC7;
     font-family: 'Permanent Marker', cursive, sans-serif;
     font-size: 2rem;
-    backdrop-filter: blur(80px);
     width: 100%;
+    padding: 50px;
+    color: #DFDDC7; 
+}
+
+#bannerText h2 {
+    background-color: #000000;
+    color: #DFDDC7;
+    font-size: 4rem;
+    width: 50%;
+    opacity: 0.6;
+    border-radius: 10px 90px 10px 80px;
+    text-align: justify;
+}
+
+#bannerText p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000000;
+    opacity: 0.6;
+    font-size: 2rem;
 }
 
   
