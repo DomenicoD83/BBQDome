@@ -75,6 +75,7 @@ header img {
     opacity: 0.6;
     border-radius: 10px 90px 10px 80px;
     text-align: justify;
+    padding: 50px;
 }
 
 #bannerText p {
@@ -84,4 +85,12 @@ header img {
     font-size: 2rem;
 }
 
+.homeMenu {
+    min-width: 400px;
+    min-height: 150px;
+    border: solid 2px white;
+    background-color: #DFDDC7;
+    color: #211717;
+    display: none;
+}
   
